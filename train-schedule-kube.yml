@@ -1,5 +1,5 @@
-kind: Service
 apiVersion: v1
+kind: Service
 metadata:
   name: train-schedule-service
 spec:
@@ -12,7 +12,6 @@ spec:
     nodePort: 8080
 
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
